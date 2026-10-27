@@ -1,0 +1,92 @@
+PlayWright with JS/TS:Batch:237 & 238 
+----------
+
+Software Testing Tools:Functional Testing
+------------------
+1.Manual Testing:100% Human efforts 
+2.Automation Testing:To test the app by using automation tools.
+
+1.Selenium:4G   100:40S 60P 
+2.Playwright:5G 
+
+Role:ATE/SDET 
+Responsibilities: 
+Write Automation Script/Convert Manual TC into AS
+Run Script:PlayWright
+Analysis Reports 
+
+Executes the automation script
+Generates the reports:Pass/Fail
+
+Scenario:Login Functionality:
+
+Playwright Concepts or Methods/Actions:
+Programming Language:JavaScript or TypeScript
+
+Variables DataTypes Arrays Scope OOPs I P E
+
+JavaScript or TypeScript:
+-----------------------
+JavaScript:4G
+
+TypeScript:5G
+ 
+TS is superset of JS 100%=80%
+
+Programs:Logics:JS  filename.js 
+Write Program:TS  
+Execute the Program:->2Errors Getting output
+Analysis Results 
+
+
+Programs:Logics:TS  filename.ts
+Write Program:TS ->2Errors 0Errors 
+Compile the Program:Checking the Errors[filename.ts]
+Execute the Program:Getting output[filename.js]
+Analysis Results 
+
+CompileTime:Compilation
+RunTime:Execution 
+
+Environment Setup:
+--------------
+Node-JS:JS Environment:[.exe]
+npm:Node Package Manager
+VS-Code:Editor:[.exe]New Update/Modify Delete
+TypeScript:PL[Compiler][Library]
+npm install -g typescript
+
+C:\Users\HP>node --version
+v24.21.0
+https://nodejs.org/en/download
+ Long-Term Support (LTS)
+C:\Users\HP>npm --version
+11.19.0
+https://code.visualstudio.com/download
+
+PS D:\QT\VS Code\QT_TSPrograms_237_238_Batches> tsc --version 
+Version 7.0.2
+
+To Compile TS file: 
+tsc filename.ts
+tsc Sample1.ts
+To Run/Execute JS file:
+node filename.js 
+node Sample1.js 
+
+PS D:\QT\VS Code\QT_TSPrograms_237_238_Batches> node Sample.js
+Welcome
+
+
+Project1 or Folder:Galary 
+Package:Camera Video 
+Class :img1.jpeg v1.mp4 
+
+Project2 or Folder:Galary 
+Package:Camera Video 
+Class :img1.jpeg v1.mp4 
+
+Project3 or Folder:Galary 
+Package:Camera Video 
+Class :img1.jpeg v1.mp4 
+
