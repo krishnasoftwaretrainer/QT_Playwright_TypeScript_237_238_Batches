@@ -90,3 +90,64 @@ Project3 or Folder:Galary
 Package:Camera Video 
 Class :img1.jpeg v1.mp4 
 
+Compilation Time: 
+Execution Time:
+
+JS is Dynamic Typing
+There is no datatypes in JS 
+
+TS is Static Typing
+We have datatypes in TS 
+
+Integer:34554 677.578:number 
+String:'erfgru': string
+
+Variables and DataTypes:
+---------------------
+Variable:Container:To store the different datatype values.
+Variable contains memory.
+Variables are User-define.
+Rules:Alphabets[ASD ggh]:Digit or SS 
+
+1num #num  num Num NUM  n1u2m31  num_1 num$1 _nu-m  
+
+Locator:Variable
+
+var let const
+Syntax:KeyWord VariableName:datatype=value; //TS 
+		var num1:number=111;
+		let VariableName=Value; //JS 
+		num2=222;
+
+DataType:Which type value we are stored into variable.
+
+1.Primitive:
+----------
+A.Number:number:Plain:466 -678 Point:98.78 -89.56 
+B.String:string:'' "" ``
+C.Boolean:true false ``
+
+2.Non-Primitive:
+
+Scope of Variables:wher i can use variable.
+var let const 
+
+pi:number:3.14;
+pi:4.14;
+
+Declaration and Initialization
+let a:number: Declaration
+a=22; Initialization
+
+let b:number=33; Declaration+Initialization
+
+Re-Declaration and Re-Initialization
+let a:number;
+let a:number;
+
+a=22; //Print:22
+a=33; //Print:33
+
+Global Scope
+Function Scope
+Block Scope
