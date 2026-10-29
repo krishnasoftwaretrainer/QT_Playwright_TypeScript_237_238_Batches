@@ -151,3 +151,89 @@ a=33; //Print:33
 Global Scope
 Function Scope
 Block Scope
+
+number
+string
+boolean
+any
+unknown
+null
+undefined
+typeof
+
+let sname:string='Ramesh';
+sname='Krishna' Re-Initialization
+
+let sname[]:string=['Ramesh','Krishna',''];
+htno sname result 
+
+let sdetails[]:any=[101,'Ramesh',true];
+
+let ldata[]:unknown=['standard_user',12345];
+
+Comments in TS:
+-------------
+Non-Executable Statements in ts. 
+
+1.Single Line: //
+2.Multi Line: /*   */
+
+Errors in TS:
+----------
+1.CompileTime/Syntax Errors
+2.RunTime/Exceptions
+3.Logical/Functional Errors
+
+Operators in Java:
+---------------
+Symbol:+ / < != ==
+
+Operators are symbols, using to perform operations on operands. 
+
+Operator:  + 
+Operation: Addition
+Operand: 5,2 
+
+Types of Operators:
+---------
+1.Arthametic Operators:+ - * / %: 5/2:2 5%2=1 2,6
+2.Relational Operators:< <= > >= == !=
+3.Logical Operators:AND OR NOT 
+4.Assignment Operators:= += -= *= /= %=
+5.Unary Operators:+ - ++ --
+6.Ternary Operators:  : ?
+
+1.Arthametic Operators:+ - * / %
+Operator Precedence/ Priority:[BODMAS]
+High:* / %
+Low:+ -
+
+Input:Number 
+Output:Number
+
+2.Relational/Comparison Operators:< <= > >= == !=
+Input:Number 
+Output:Boolean
+Conditional Statements
+
+5>3:Yes:true 
+3>5:No:false
+>=:> OR =:10>3 OR 10==3:true OR false:true 
+<=:< OR =:10<=3:10<3 or 10==3:false or false:false
+
+3.Logical Operators:AND OR NOT 
+---------------true false 
+Input:Boolean 
+Output:Boolean
+
+Truth Table:
+
+Input1	Input2	AND[&&] OR[||]	NOT[!]
+-------------------------------------
+True	True	True	True	False 
+
+True	False	False	True
+
+False	True	False	True
+
+False	False	False	False	True 

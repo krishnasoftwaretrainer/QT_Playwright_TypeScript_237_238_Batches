@@ -1,5 +1,5 @@
 //Student Information
-
+/*
 let htno:number=102;
 let sname:string='Ramesh';
 let percentage:number=99.99;
@@ -14,3 +14,28 @@ console.log("Result",result);
 //console.log('Student Name is'+ sname+'HTNO is'+htno+"Result is"+result);
 
 console.log(`Student Name is ${sname} HTNO is ${htno} Result is ${result}`);
+*/
+
+//This is example program for datatypes in TypeScript
+
+let htno:number=102;
+let sname:string='Ramesh';
+let result:boolean=true;
+let pswd:number | string | boolean=1234;
+let otp:any=true;
+let a:undefined=undefined;
+let aa:null=null;
+let bb:unknown=100;
+
+console.log(typeof htno);
+console.log(typeof sname);
+console.log(typeof result);
+console.log('Password Type:',typeof pswd);
+console.log('OTP Type:',typeof otp);
+
+console.log('Undefined Type:',typeof a);
+console.log('Null Type:',typeof aa);
+console.log('Null', aa);
+
+console.log('Unknown Type:',typeof bb);
+console.log('Unknown', bb);
