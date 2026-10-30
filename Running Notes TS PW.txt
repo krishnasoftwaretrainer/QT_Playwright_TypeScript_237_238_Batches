@@ -237,3 +237,137 @@ True	False	False	True
 False	True	False	True
 
 False	False	False	False	True 
+
+4.Assignment Operators:= += -= *= /= %=
+------------
+a=22;  22=a 
+b=a 
+
+let a=10;
+let b;
+
+b=a+5;
+b=10+5;
+b=15;
+
+a+=5;
+a=a+5;
+a=10+5;
+a=15 
+
+5.Unary Operators:
+----------------
++ -:Signs 2  -5 
+
+Increment:++ +1 
+a=5;a++; a=6
+Pre-Increment:++a a=10; a=11,Print 11
+Post-Increment:b++ b=10;Print:10 b=11
+
+Decrement:--  -1 
+b=5;b--;b=4
+Pre-Decrement:--c:c=10;c=9;Print:9 
+Post-Decrement:d--:d=10,Print:10; d=9
+
+6.Ternary Operator:
+------------------
+It is another form of if condition.
+
+:  ?
+
+Student Result:
+obtainedmarks:25
+passmarks:35  
+obtainedmarks>passmarks
+55>35:true:Pass 
+25>35:false:Fail 
+
+Result:Pass 
+
+Control Flow Statements in JS/TS:
+----------------------------
+JS/TS program executeed in 2ways:
+1.Sequential Way:In order or line by line 
+2.Conditional Way 
+
+1.Conditional/Branching/Selection:
+A.if()
+a.simple-if()
+b.if-else()
+c.else-if() or ladder-if()
+d.nested-if()
+
+B.switch()
+
+2.Looping/Iterative:
+a.for()
+b.while()
+c.do-while()
+d.nested-loops
+
+3.Jumping:
+break;
+continue;
+
+1.Definition
+2.Syntax
+3.FlowChart
+4.Explanation
+5.Example Program   10k 9k balance 9k>=10k:false
+
+TBS(true):True Block Statements:Pass/Selected
+FBS(false):False Block Statements:Fail/No-Selected
+
+1.Simple-if():
+------------
+TBS:Pass 
+Null/Blank 
+Syntax:
+-------
+Input;
+if(Condition)T/F 
+{
+TBS;
+}
+
+2.if-else():
+--------
+TBS:
+FBS:
+
+Syntax:
+-------
+Input;
+if(Condition)T/F 
+{
+TBS;
+}
+else
+{
+FBS;
+}
+
+3.else-if or ladder-if():
+------------------------
+Syntax:
+-----
+if(Condition-1)T/F 
+{
+TBS;
+}
+else if(Condition-2)T/F 
+{
+TBS;
+}
+else if(Condition-3)T/F 
+{
+TBS;
+}
+else 
+{
+FBS;
+}
+
+Weekdays 
+Months  
+31 30 28
