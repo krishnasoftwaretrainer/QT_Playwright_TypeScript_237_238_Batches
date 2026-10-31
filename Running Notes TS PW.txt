@@ -371,3 +371,121 @@ FBS;
 Weekdays 
 Months  
 31 30 28
+
+4.Nested-if():
+-----------
+Syntax:
+------
+if(Condition) //Outer T	T F 
+{
+if(Condition) //Inner T F 
+{
+Body; TBS;
+}
+else //Inner 
+{
+FBS;
+}
+}
+else //Outer 
+{
+FBS;
+}
+
+switch Condition:
+---------------
+Syntax:
+-------
+Switch(Condition)
+{
+case 1:
+{
+TBS;
+break;
+}
+case 2:
+{
+TBS;
+break;
+}
+Case 3:
+{
+TBS;
+break;
+}
+default:
+{
+FBS;
+}
+
+Looping/Iterative Statements:
+-----------------------
+for():Counted Loop:Start:1 and End:10
+Syntax:
+------
+for(InitialValue;Condition;Increment/Decrement)
+{
+Bod;
+}
+ 
+while():Infinite Loop: 
+------
+Syntax:
+----
+while(true)
+{
+Body;
+}
+------
+InitialValue;
+while(Condition)
+{
+Body;
+Increment/Decrement;
+}
+
+Entry Control:Verifies the condition at begining or entry level, 
+for()
+while()
+
+Exit Control:
+-----------
+do-while:
+------
+Syntax:
+----
+do 
+{
+Body;
+Increment/Decrement;
+}while(Condition); Stop 
+
+Nested Loops:
+------------
+Syntax:
+----
+for(InitialValue,Condition;Increment/Decrement)//O
+{  //Rows 5:1 2 3 4 5 
+for(InitialValue,Condition;Increment/Decrement)//In
+{ //Columns  5:1 2 3 4 5
+Body;
+}
+}
+
+println() 
+print()
+
+Jumping Statements
+Arrays 
+Strings 
+Functions
+
+OOPS:
+Methods 
+Constructors
+Inheritance
+Polymorphism:MOL MOR 
+Data Abstraction
+Interface
+Encapsulation
+Exception Handling
