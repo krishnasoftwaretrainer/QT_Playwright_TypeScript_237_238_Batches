@@ -489,3 +489,77 @@ Data Abstraction
 Interface
 Encapsulation
 Exception Handling
+
+Jumping Statements in JS/TS:
+----------------------
+break:Stop the execution permanently. 
+A 'break' statement can only be used within an enclosing iteration(loop) or switch statement.
+
+continue:Skip the current iteration. 
+A 'continue' statement can only be used within an enclosing iteration(loops) statement.
+
+Non-Primitive:
+-----------
+Arrays in JS/TS:
+-------------
+Collection of elements of same or different datatype value.
+
+let id1:number=101;
+let id2:number=102;
+let id3:number=103;
+let id4:number=104;
+-----------------
+
+Syntax:KeyWord ArrayVariablename:datatype[]=[value1,Value2,....];
+
+let id:number[]=[101,102,103,...];
+let snames:string[]=['Krishna','Suresh',''];
+let result:boolean[]=[true,false,true];
+let sdetails:any[]=[101,'Krishna',true];
+
+Index into memory
+0 to n-1 
+
+id[0]=101
+id[1]=102
+id[2]=103 
+
+1.Single-Dimensional or One-Dimensional:
+SR MC or MR SC 
+
+2.Two or Double or Multi-Dimensional:
+MR MC 
+Array Methods:
+-------
+Method	Purpose
+push()	Add element at the end
+pop()	Remove last element
+unshift()	Add element at the beginning
+shift()	Remove first element
+length	Returns array size
+includes()	Checks whether element exists
+indexOf()	Returns element index
+let arr = [10, 20, 30]; arr[1] = 50;
+
+Strings:
+------
+Collection of elements of different datatype.
+
+''
+""
+let name:string='Krishna';
+let course:string='Testing';
+``:`My Name is{$name} and Course is{$course}`
+
+OOPS:
+class 
+object 
+Functions
+Methods 
+Constructors
+Inheritance
+Polymorphism:MOL MOR 
+Data Abstraction
+Interface
+Encapsulation
+Exception Handling
