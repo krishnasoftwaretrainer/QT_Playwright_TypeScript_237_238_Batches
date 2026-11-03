@@ -563,3 +563,93 @@ Data Abstraction
 Interface
 Encapsulation
 Exception Handling
+
+Procedure Oriented:C 
+
+Object Oriented:OOPs:JS/TS
+
+Reusability
+Readability
+Security
+
+Class and Object
+-------------
+BluePrint/Template:Virtual:Common Features
+
+Objects:Real:State, Behaviour, Identity
+
+Vehicle:Car Bike Lorry Bus
+Fruits:Mango Banana
+Veg: Brinjal  
+
+class classname
+{
+Methods/Actions;
+}
+
+Methods:Block of Code. {Body}
+Calculator:+ - * /
+{ + }
+{ - } 
+{ * }
+
+Two types of Methods:
+1.Pre-Define:length()
+2.User-Define:
+
+Syntax:
+-----
+class classname
+{
+AccessSpecifier MethodName()+:ReturnType
+{ //Open:Entry
+Body; Logics 
+}Close:Exit 
+
+AccessSpecifier MethodName()-:ReturnType
+{ //Open:Entry
+Body; Logics 
+}Close:Exit
+
+}
+
+1.Static Method:static
+2.Instance/Non-Static:
+ 
+Method Calling:
+-----------
+Static Calling:ClassName.MethodName()
+Instance Calling:ObjectName.MethodName()
+
+Syntax:KeyWord ObjectName=new ClassName();
+
+AccessSpecifier:public private protected
+
+Same File Same Class:public private protected
+Same File Different Class:public
+Different File Different Class:public 
+
+Inside Class:public private
+Outside Class:public
+Outside file:public
+
+User-define methods types:
+------------------
+Without Parameter and Without ReturnType
+With Parameter and Without ReturnType
+Without Parameter and With ReturnType
+With Parameter and With ReturnType
+
+public add():void 
+
+public add(let a:number):void 
+
+public add():number
+{
+return 0;
+}
+
+public add(let a:number):number
+{
+return 0;
+}
