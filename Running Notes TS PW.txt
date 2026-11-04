@@ -653,3 +653,120 @@ public add(let a:number):number
 {
 return 0;
 }
+
+Functions vs Methods:
+----------------
+Syntax:
+-------
+function functionName()
+{
+Function Body;
+}
+functionName()
+
+Types of Functions:
+---------
+Named Function		Function has a name
+Parameterized Function	Accepts parameters
+Return Function	Returns a value
+Anonymous Function	Function has no name
+Function Expression	Function assigned to a variable
+Arrow Function	Uses => syntax
+
+Constructors in JS/TS:
+-------------------
+Method and Constructor
+static		-----
+instance	
+Object	
+
+int one class we can create, only one Constructor and one or more methods.
+1C 
+2M 
+->Call 
+
+Only Methods 
+URL:BM 
+Valid :M1->BM M1 
+//URL 
+Invalid:M2->BM M2 
+//URL 
+
+Constructor and Method
+URL:Constructor 
+Valid :M1-> M1 
+//URL 
+Invalid:M2-> M2 
+//URL 
+
+Syntax:
+----
+class className
+{
+constructor()
+{
+Body;
+}
+Object Creation
+
+Types of Constructors:
+-----------
+1.Default Constructor.
+2.Parameterized Constructor.
+
+4Pillers of OOPS Concepts:
+---------------------
+1.Inheritance
+2.Polymorphism
+3.Data Abstraction
+4.Encapsulation
+
+Inheritance:Re-Usability
+---------
+Parent
+Child:Child class inhertes/acquires the features from parent class.
+
+class Parent
+URL:Parent:Common or basic features
+
+class child1 extends Parent
+URL
+ValidLogin:Child1 
+
+class child2 extends Parent
+URL
+InValidLogin:Child2
+
+Bus:Parent 
+
+Passenger1:Child1 extends Bus:Parent
+Passenger2:Child2 extends Bus:Parent
+Passenger3:Child3 extends Bus:Parent
+
+Types of Inheritance:
+-------------------
+1.Single-Level:Only One Parent and One Child
+2.Multi-Level:C->P->GP 
+3.Hierarchical:
+4.Multiple:It is not possible in inherence but it is possible in interface.
+
+Polymorphism in JS/TS: Many Forms 
+-------------------
+poly:Many 
+morphism:Forms 
+
+Types:
+-----
+1.Static/CompileTime:Method OverLoading
+One method in different forms/behaviours.
+add(3+2) +
+add(3+2+1) +
+add(4+3+2+1)+
+
+2.Dynamic/RunTime:Method OverRiding
+OverRiding is related to inheritance.
+Child class overrides/rewrite the parent properties. 
+
+RBI:Parent: Loan->5%
+SBI:Child1: Loan->6%
+HDFC:Child2: Loan->7% 
