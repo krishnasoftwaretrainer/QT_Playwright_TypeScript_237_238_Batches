@@ -770,3 +770,32 @@ Child class overrides/rewrite the parent properties.
 RBI:Parent: Loan->5%
 SBI:Child1: Loan->6%
 HDFC:Child2: Loan->7% 
+
+add(10,20)
+
+
+Data Abstraction[Security]:Hiding the implementation 
+--------------
+Hiding the implementation and showing only required.
+
+ATM:What How 
+
+Abstract KeyWord:Partial Abstraction[0 to 100%]
+Interface:Only accepts the un-implemented.[100%]
+
+Noraml Class:class RBI 
+Abstract Class:class abstract RBI 
+->Normal class can accept only Normal methods.
+->Abstract class can accept the Normal methods and abstract methods.
+
+Normal Method:Have Implementation.
+Abstract Method:Dont have Implementation.
+
+Interface:
+1.To achieve the 100%(Complete) of data abstraction
+2.To achieve the Multiple Inheritance
+
+Syntax:
+-------
+interface InterfaceClassName
+{
