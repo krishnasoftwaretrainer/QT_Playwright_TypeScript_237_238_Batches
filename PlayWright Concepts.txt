@@ -1,0 +1,117 @@
+ PLAYWRIGHT TOPICS:
+------------------------
+->INTRODUCTION TO AUTOMATION TESTING & PLAYWRIGHT
+->Playwright Installation & Project Setup
+
+->Writing the First Playwright Test
+[test(),page, expect(),.spec.ts]
+
+->Running the Playwright Test
+[npx playwright test,filename.spec.ts,--headed, --debug, --ui,page.pause(),--project=chromium, --grep "test name",--last-failed,show-report]
+
+->BROWSER LAUNCHING 
+[Chromium, Firefox, WebKit]
+
+->TITLE AND URL VERIFICATION 
+[page.title() and page.url()]
+
+->HEADLESS AND HEADED BROWSER
+
+->Playwright Configuration
+[playwright.config.ts,use,baseURL,browserName,headless,viewport,timeout,retries,workers]
+
+->WEB LOCATORS AND WEB ELEMENTS
+[getByRole(), getByText(), getByLabel(), getByPlaceholder(), getByTestId(), locator(),CSS,XPATH]
+------------------------------------
+->RECORD AND PLAY / CODEGEN
+[npx playwright codegen, recording actions, generating locators, generating test code]
+
+->LOCATOR HANDLING
+[locator(), first(), last(), nth(), count()]
+
+->PAGE / LOCATOR METHODS
+[click(), fill(), type(), press(), pressSequentially(), focus(), check(), uncheck(), selectOption()]
+{ delay: 100 }
+
+->GETTING TEXT AND ATTRIBUTES
+[textContent(), innerText(), getAttribute()]
+
+->CLEARING TEXT BOXES
+[fill(''), clear(),type('')]-->Tests
+->RADIO BUTTONS and CHECKBOXES
+
+->ELEMENT STATE VERIFICATION
+[isVisible(), isEnabled(), isChecked()]
+
+->ASSERTIONS
+[toBeVisible(), toBeHidden(), toBeEnabled(), toBeDisabled(), toBeChecked(), toHaveText(), toContainText(), toHaveValue(), toHaveAttribute(), toHaveURL(), toHaveTitle(), toHaveCount()]
+---------------------
+->DROPDOWN HANDLING
+[selectOption(),label,index,value]
+
+->SCROLLING
+[mouse.wheel(), locator.scrollIntoViewIfNeeded()]
+
+->NAVIGATION COMMANDS
+[goBack(), goForward(), reload()]
+
+->SCREENSHOT and VIDEO RECORDING
+[Page, element and full-page screenshots,video recording][screenshot: 'on', screenshot: 'only-on-failure']
+
+->FILE UPLOADING AND DOWNLOADING
+[setInputFiles(), waitForEvent('download')]
+
+>WEB TABLE HANDLING
+==================================
+->ALERTS / DIALOG HANDLING
+[dialog.accept(), dialog.dismiss(), dialog.message(),dialog.accept('text')]
+
+->FRAME / IFRAME HANDLING
+[frameLocator(), contentFrame()]
+
+->WINDOW / TAB HANDLING
+WORKING WITH MULTIPLE WINDOWS AND TABS
+[context.waitForEvent('page'), page.waitForEvent('popup')]
+----------------------------------------
+->KEYBOARD ACTIONS
+[keyboard.press(), locator.press()]
+
+->MOUSE ACTIONS
+[Mouse click, hover, move, etc.]
+->DRAG AND DROP / RIGHT CLICK
+[dragTo(), mouse, click({ button: 'right' })]
+->WAITS AND AUTO-WAITING
+[Playwright auto-waiting, assertions, explicit waits where required]
+
+Frame Works:
+------------
+->PLAYWRIGHT TEST RUNNER
+
+->TEST HOOKS AND FIXTURES
+[beforeEach, afterEach, beforeAll, afterAll, fixtures]
+->PLAYWRIGHT CONFIGURATION
+[playwright.config.ts, projects, browsers, devices, timeout, retries]
+
+->DATA-DRIVEN TESTING
+[JSON, CSV, Excel/test data]
+->EXCEL DATA HANDLING
+
+->Hybrid FrameWork
+
+->PAGE OBJECT MODEL (POM)
+->REPORTING AND TRACE
+[HTML Report, Trace Viewer, screenshots, videos]
+
+Hybrid FrameWork:URL+Locators+TestData+Actions 
+
+->BDD WITH CUCUMBER
+Playwright + Cucumber
+
+->API TESTING WITH PLAYWRIGHT
+request, GET, POST, PUT, PATCH, DELETE, API assertions
+
+->CI/CD
+
+->PLAYWRIGHT AUTOMATION PROJECT
+
+->Playwright + TypeScript + POM + Data Driven + Fixtures + Assertions + Reports + CI/CD

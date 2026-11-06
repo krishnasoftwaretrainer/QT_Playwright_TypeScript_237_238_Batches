@@ -799,3 +799,11 @@ Syntax:
 -------
 interface InterfaceClassName
 {
+
+Encapsulation in JS/TS:
+-----------------Security:Data 
+Bank:Customer:Krishna:private: accnum balance accname 
+
+Bank:SBI:
+Customer:Class:private:accnum balance accname
+Employee:Class:getter and setter

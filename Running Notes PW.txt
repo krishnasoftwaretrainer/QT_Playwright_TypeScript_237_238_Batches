@@ -1,0 +1,67 @@
+Automation Testing:Functional:UI & API 
+------------------
+To test the app by using automation tools.
+
+Server:UI & API 
+
+Playwright is supports for functional automation testing:UI and API 
+
+FB:
+UI:URL :YES :UI 
+API:EndPoint:NO  
+-------------- 
+
+Requers APP:
+UI:URL :NO :UI 
+API:EndPoint :YES :API 
+https://reqres.in/api/users/2
+
+FullStack Testing:
+UI:Manual and Automation
+API:Manual and Automation
+Database:SQL:Queries
+
+------------
+Our Own APP:
+Create User:UI API Database 
+Get User:UI API Database 
+UI:URL :YES :UI 
+https://employee-crud-api-1ubt.onrender.com/
+API:EndPoint:YES: API 
+https://qualitythoughtnew-employee-api.onrender.com/employees
+Database:
+
+Selenium:UI[Web] Functional:Browsers:C E F
+Result:Reports:TestNG/JUnit
+Parallel Testing:NO 
+Headed and HeadLess:Not Directly:ChromeOptions 
+CI/CD:Jenkins and Github Actions
+
+Playwright:Library:UI & API Functional:
+Own Browsers:Chromium:Chrome+Edge Firefox WebKit:Safari
+Result:Reports:Own Framework:Test
+Parallel Testing:Yes 
+Headed and HeadLess:Default
+CI/CD:Github Actions
+
+ATE/SDET:
+->To Covert manual testcases into automation script.
+->To verify validations in your local machine[Headed].
+->Push automation scripts into github(Cloud Repo).
+->Run your automation scripts automatically in server[Jenkins and Github Actions].
+
+Playwright:Write automation scripts.
+
+1.Automation Tool:Playwright
+2.Editor:IDE:VS-Code Editor
+3.Programming Language:JS/TS
+
+Basic and Advanced Operations
+FrameWorks:
+Test Framework
+Data Driven
+POM 
+Hybrid
+BDD Cucumber
+API Testing
+CI/CD
