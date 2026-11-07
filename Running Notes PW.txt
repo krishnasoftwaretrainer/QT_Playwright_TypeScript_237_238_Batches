@@ -65,3 +65,47 @@ Hybrid
 BDD Cucumber
 API Testing
 CI/CD
+
+Configuration of Playwright:
+--------------------
+1.Automation Tool:Playwright
+2.Editor:IDE:VS-Code Editor
+3.Programming Language:JS/TS
+4.Run Environment:Node-JS
+
+PS D:\apiproject> node --version
+v24.21.0
+PS D:\apiproject> npm --version
+11.19.0
+PS D:\apiproject> 
+
+npm init playwright@latest
+npx playwright test
+npx playwright test --headed
+npx playwright test --project='firefox' --headed
+npx playwright test sample.spec.ts --project='firefox' --headed
+npx playwright test --grep "has title"  example.spec.ts --project='firefox' --headed
+
+CLI:Command Line Interface
+Configuration.ts 
+
+1st
+Parallel Mode:true  
+Headless Mode:true  
+All Browsers:true 
+
+2nd
+Parallel Mode:true  
+Headless Mode:false   
+All Browsers:true
+
+3rd
+Parallel Mode:false  
+Headless Mode:false   
+All Browsers:true
+
+4th
+Parallel Mode:false  
+Headless Mode:false   
+All Browsers:false
+Specific Browser:Chromium
