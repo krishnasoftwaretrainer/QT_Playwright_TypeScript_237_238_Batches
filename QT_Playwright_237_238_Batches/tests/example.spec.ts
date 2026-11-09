@@ -11,7 +11,7 @@ console.log('Page title:', await page.title()); // Log the page title to the con
   await expect(page).toHaveURL(/playwright.dev/); // Expect the URL to contain 'playwright.dev'
   await page.waitForTimeout(2000);
 });
-
+/*
 test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
@@ -23,3 +23,4 @@ test('get started link', async ({ page }) => {
   await page.waitForTimeout(2000);
   //Close
 });
+*/

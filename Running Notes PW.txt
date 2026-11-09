@@ -109,3 +109,59 @@ Parallel Mode:false
 Headless Mode:false   
 All Browsers:false
 Specific Browser:Chromium
+
+Web Locators and Web Elements:
+------------------------
+Web page contains web elements, common webelements are 
+
+Text Box:Enter Text/Select Text/Clear Text/Copy/Paste
+Text Area:fill() or type() 
+fill() or type()
+
+Button:Click:click()
+Links:Click:click() 
+
+Radio Buttons:check() 
+Checkboxes:check() or uncheck():
+
+DropDowns/List Box:select 
+
+Web Locators:Web Locators are locators using to find
+web elements on webpage.
+Types of Web Locators:
+--------------
+1.Built-in Locators:Developed by plyawright 
+A.page.getByRole():
+await page.getByRole('textbox'{name:'Username'}).fill()
+
+await page.getByRole('roletype'{name:'rolename'}).fill()
+
+await page.getByRole('textbox'{name:'Username'}).fill()
+
+
+B.page.getByText() 
+C.page.getByLabel()
+D.page.getByPlaceholder() 
+E.page.getByAltText()
+F.page.getByTitle()
+G.page.getByTestId()
+
+DOM:Document Object Model:HTML Code/Tags.
+<html>  
+<head> </head>
+<body> </body>
+</html>
+
+2Types of operations we can perform by using playwright.
+Browser/Page Operations:
+Open Page 
+Enter URL 
+getTitle 
+getURL 
+backward forward refresh
+Close Page 
+Element Operations 
+
+2.Generic Locators:Common Locators
+A.CSS Selector 
+B.XPath
