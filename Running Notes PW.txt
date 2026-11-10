@@ -163,5 +163,21 @@ Close Page
 Element Operations 
 
 2.Generic Locators:Common Locators
-A.CSS Selector 
-B.XPath
+A.CSS Selector: 
+Using ID:  #idvalue
+Using Class: .classvalue
+Using TagName: tagname 
+Using Attribute:[attribute='Value']
+
+
+B.XPath:page.locator():
+--------------
+Absolute XPath:/
+/html/body/div/div/div[2]/div[1]/div/div/form/div[1]/input
+
+Relative XPath://
+Syntax: //tagname[@attribute='Value']
+//input[@id="login-button"]
+
+Syntax: //tagname[text()='value/text']
+//h3[text()='Epic sadface: Username and password do not match any user in this service']
