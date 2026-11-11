@@ -19,6 +19,7 @@ await page.goto('https://www.saucedemo.com/'); //Open
 //await page.pause();
 await page.waitForTimeout(2000); //Waits 2seconds
 await page.locator('//input[@aria-label="Username"]').fill('grtgrtg'); //Using XPath
+console.log('Count: ',await page.locator('//*[@data-test="password"]').count()); //Count of the element
 await page.locator('//*[@data-test="password"]').fill('trhrthrt'); //Using XPath
 await page.locator('//input[@id="login-button"]').click(); //Using XPath
 
