@@ -21,3 +21,10 @@ console.log('Class Attribute:',firstNameAttribute1);  //form-control ng-pristine
 await page.waitForTimeout(2000);
 
 });
+
+test.only('pressSequentially ', async ({page}) => {
+await page.goto('https://demo.automationtesting.in/Register.html');
+const firstNameInput = page.getByRole('textbox', {name: 'First Name'});
+await firstNameInput.pressSequentially('ABCDEFGHIJKLMN',{delay:1000});
+console.log('Input Value:',await firstNameInput.inputValue());
+});

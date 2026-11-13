@@ -94,7 +94,7 @@ for(let i=0;i<await cricketcheckbox.count();i++)
 await page.waitForTimeout(2000);
 });
 
-test.only('Check Box  ', async ({page}) => {
+test('Check Box  ', async ({page}) => {
 await page.goto('https://demo.automationtesting.in/Register.html');
 
 const cricketcheckbox=page.locator('#checkbox1');
@@ -106,4 +106,22 @@ await cricketcheckbox.click();
 await page.waitForTimeout(2000);
 moviescheckbox.click();
 await page.waitForTimeout(2000);
+});
+
+test.only('DropDown  ', async ({page}) => {
+await page.goto('https://demo.automationtesting.in/Register.html');
+
+const year=page.locator('#yearbox');
+await year.focus();
+await year.selectOption({index:10});  //1920 Using Index 
+
+const month=page.locator('//select[@placeholder="Month"]');
+await month.focus();
+await month.selectOption('November'); //Value
+
+const day=page.locator('#daybox');
+await day.focus();
+await day.selectOption({label:'13'});  //Label
+
+await page.waitForTimeout(3000);
 });
