@@ -181,3 +181,101 @@ Syntax: //tagname[@attribute='Value']
 
 Syntax: //tagname[text()='value/text']
 //h3[text()='Epic sadface: Username and password do not match any user in this service']
+
+npx playwright codegen	Opens Codegen
+npx playwright codegen URL
+ await checkloc.nth(i).check();
+ 
+ /html/body/div/div/div[2]/div[1]/div/div/form/div[1]/input
+ 
+ //tagname[@attribute='Value']
+ //*[@id="user-name"]
+ 
+ Copilet[AI Tool] 
+ //Addition of two numbers
+ let a:number=10;
+ let x:number=20;
+ 
+ let sum:number=a+x;
+ 
+ Text Box:fill type clear focus gettext select
+ Text Area:fill type clear focus gettext select
+ 
+ Button
+ Link 
+ 
+
+ checkloc.count()
+ checkloc.nth(i).check();
+ .selectOption({'index':6})
+ .selectOption({'value':'AU'})
+ .selectOption({'label':'Bangladesh'});
+ .pressSequentially('text', { delay: 100 });
+ Text Box:fill type clear focus gettext select
+ Text Area:fill type clear focus gettext select
+ 
+ Button
+ Link 
+ 
+ Radio Button
+ Check Box
+ Drop Down
+ 
+Assertions:Excepted vs Actual:Pass/Fail
+Hard: Displayed Enabled, Checked  
+Soft: Displayed Enabled, Checked 
+
+toBeVisible(), toBeHidden(), toBeEnabled(), toBeDisabled(), toBeChecked(), toHaveText(), toContainText(), toHaveValue(), toHaveAttribute(), toHaveURL(), toHaveTitle(), toHaveCount()
+
+Drop Down:
+year.selectOption({index:10});  //1920 Using Index 
+month.selectOption('November'); //Value
+day.selectOption({label:'13'});  //Label
+
+Hybrid:URL+TestData+Locators 
+
+TestData:
+JSON File 
+JSON Read:Class  
+
+Locators:Class
+ 
+Test:
+
+Page SCROLLING:
+--------------
+Default Scrolling
+
+Vertical Scrolling
+Up to Down 
+Down to Up 
+
+Horizontal Scrolling
+Left to Right
+Right to Left
+
+Browser Navigations:
+------------------
+goto 
+BackWard 
+ForWard 
+Refresh[ReLoad]
+
+Page or Browser Actions[page.goBack()]
+Element Actions:[submitbutton.click()]
+
+Browser SetUp:Manul
+Open:Before Hooks 
+Browser:Chromium Edge 
+Context:Profile
+Page:Tabs 
+
+Close:After Hooks 
+Browser:Chromium Edge 
+Context:Profile
+Page:Tabs 
+
+Open Browser:
+WebDriver driver=new ChromeDriver();
+driver.manage().window().Maximize();
+driver.close();
