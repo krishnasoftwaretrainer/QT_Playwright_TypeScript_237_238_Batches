@@ -279,3 +279,68 @@ Open Browser:
 WebDriver driver=new ChromeDriver();
 driver.manage().window().Maximize();
 driver.close();
+
+SCREENSHOT and VIDEO RECORDING:
+---------------
+Bugs:Attachments 
+
+Headed:
+HeadLess:CI/CD:Proff Bug Reporting 
+
+Script:Working only for specfic script
+Config.ts 
+
+Visible Page 
+Full Page 
+Specific Element
+
+Video Recording:
+--------------
+
+FILE UPLOADING AND DOWNLOADING:
+----------------------
+Single File Upload
+Multiple Files Upload
+Remove Uploaded File 
+
+WEB TABLE HANDLING:
+-----------------
+Table 
+<table>
+
+Header:
+<table>
+<thead>
+<tr>
+<th>
+//table//thead/tr/th
+//table//thead/tr/th[7]
+Rows : 1 Row 
+Columns :One or more than one  
+
+Body 
+<table>
+<tbody>
+<tr>
+<td>
+Rows : One or more than one 
+Columns :One or more than one 
+//table/tbody  -->All Rows All Cells 
+//table/tbody/tr[2] -->Specific Row All Cells
+//table/tbody/tr[2]/td[2] -->-->Specific Row Specific Cell 
+
+Count Rows in Header:1
+Count Columns in Header:7
+Print All Column Names 
+[First Name	Last Name	Age	Email	Salary	Department	Action]
+
+Print Specific Column Name: [Email
+]
+Count Rows in Body:3
+Count Columns in Body:21
+
+Print All Rows data and All Columns: 
+Print Specific Row data and All Columns: 
+Print Specific Row Specific Column data 
+
+CRUD:Create Insert Update Delete
