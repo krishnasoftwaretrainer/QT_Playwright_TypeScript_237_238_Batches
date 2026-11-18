@@ -2,17 +2,12 @@ import {test,expect} from '@playwright/test';
 
 test('Sample', async ({page})=>{
 
-await page.goto('https://demo.automationtesting.in/Alerts.html');
+await page.goto('https://www.browserstack.com/');
 
-const alertbutton = page.locator('//button[@onclick="alertbox()"]');
-
-page.on('dialog', async dialog => {
-    console.log(`Dialog message: ${dialog.message()}`);
-
-    await dialog.accept();  // Click OK
-});
-console.log(await alertbutton.textContent());
-await alertbutton.click();
-
+const alertbutton = page.locator('#products-dd-toggle');
+await alertbutton.hover();
 await page.waitForTimeout(2000);
+await page.mouse.move(0,100);
+await page.waitForTimeout(2000);
+
 });

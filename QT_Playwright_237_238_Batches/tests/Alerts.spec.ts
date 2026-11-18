@@ -19,7 +19,7 @@ await simplealert.click();
       await page.waitForTimeout(2000);
 });
 
-test.only('Confirmation Alert:Accept or Dismiss', async ({ page }) => {
+test('Confirmation Alert:Accept or Dismiss', async ({ page }) => {
   await page.goto('https://demo.automationtesting.in/Alerts.html');
 
 const AlertwithOKCancel=page.locator('//a[@href="#CancelTab"]');
@@ -37,6 +37,28 @@ page.on('dialog', async dialog => {
 });
 await AlertwithOKCancel.click();
 await clickthebuttontodisplayaconfirmbox.click();
+console.log(await afterdialogmsg.textContent());
+      await page.waitForTimeout(2000);
+});
+
+test.only('Prompt Alert:Enter Text,Accept or Dismiss', async ({ page }) => {
+  await page.goto('https://demo.automationtesting.in/Alerts.html');
+
+const AlertwithText=page.getByText('Alert with Textbox ')
+const clickthebuttontopromptbox =page.locator('//button[@onclick="promptbox()"]');
+const afterdialogmsg=page.locator('#demo1');
+
+console.log(await AlertwithText.textContent());
+console.log(await clickthebuttontopromptbox.textContent());
+
+
+page.on('dialog', async dialog => {
+    console.log(dialog.message());
+    await dialog.accept('Krishna');  // Click OK and send text input
+    //await dialog.dismiss();  // Click Cancel
+});
+await AlertwithText.click();
+await clickthebuttontopromptbox.click();
 console.log(await afterdialogmsg.textContent());
       await page.waitForTimeout(2000);
 });
