@@ -344,3 +344,217 @@ Print Specific Row data and All Columns:
 Print Specific Row Specific Column data 
 
 CRUD:Create Insert Update Delete
+
+1
+1	2	3	4	5	6	7
+2
+1	2	3	4	5	6	7
+3
+1	2	3	4	5	6	7
+
+CRUD:Create Insert Update Delete
+
+page.on('dialog', async dialog => {
+    console.log(`Dialog message: ${dialog.message()}`);
+    await dialog.accept();  // Click OK
+});
+
+Frames:
+------
+
+FrameWorks:
+-----------
+Test Framework
+Data Driven
+POM 
+Hybrid Framework:DataDriven+POM 
+BDD Cucumber:DataDriven+POM 
+
+API Automation Testing 
+CI/CD:Git Github GithubActions Jenkins
+
+https://testyard.onrender.com/practice/dragdrop
+
+
+Keyboard and Mouse Actions:
+----------------------
+
+getByText
+XPath
+
+getByRole
+
+Drag and Drop 
+Click and Hold and Move and Release
+Source and Target  
+
+->WAITS AND AUTO-WAITING
+
+Test timeout of 30000ms exceeded.
+
+Static or Fixed Wait:
+Thread.sleep(2000);
+await page.waitForTimeout(5000);
+
+Dynamic Waits:
+------------
+10min
+Implicit 
+Explicit 
+
+Built-in:Auto-Waiting   
+
+
+Software Testing:To test the developers developed app is working according to client requirements or not.
+
+Quality App 
+Defect App 
+
+Software Test Engineer/QA/SDET:
+
+Goal:To delivery quality app to clients or market.
+
+E-Commerce:Offline and Online[App]
+
+1.Manual:To test app without using any tools.
+Regression Testing:Repeatedly 
+
+
+2.Automation:To test the app with the help of Tools. 
+
+Calculator:Code Script
+Automation Script
+Selenium WebDriver:5 
+Playwright:5 
+
+Manual vs Automation:
+-----------------
+
+Github GithubActions[Jenkins]
+
+TestNG/JUnit
+Explicit Waits 
+External Browsers 
+
+Test Runner:Excution Reports Assertion
+Auto-Waiting
+Inbuilt Browsers:Chromium Firefox WebKit
+JSON
+GithubActions
+Before Hooks 
+After Hooks 
+
+ID Name Class XPath
+
+Built-in
+Generic:XPath CSS  
+
+JS 
+TS 
+Playwright
+Basic Concepts
+FrameWorks:
+Test Runner
+Data Driven
+POM 
+Hybrid
+BDD Cucumber
+API Testing
+CI/CD
+
+Windows Handling:
+----------------
+New Tab 
+New Window
+Close 
+
+Page Fixtures:page [Before Hooks after HOOKS]
+
+browser:Chromium Firefox WebKit 
+context:Profile[Window]
+page:New Tab 
+
+Work with New Browser
+Work with New window
+Work with New Tab 
+
+let a:number=10;
+
+b=20;
+
+c=30
+
+d=40
+
+Test Runner:
+-----------
+Default frame work from Playwright
+
+Data Driven FrameWork:
+--------------------
+Automation Script:Regression 
+
+URL 
+Locators
+Actions
+TestData
+
+Regression Problem
+No-Re-Reusability
+
+Hybrid:Collection of small frameworks.
+Data Driven:Test Data[External Files]
+JSON Excel 
+Store testdata into external file and use into your scripts/framework.
+
+Page Object Model[POM]
+Locators and Actions:Store Locators and Actions sepertly and use into plyawright scripts/actions.
+
+BDD Cucumber
+
+Data Driven FrameWork:
+------------------
+JSON:Java Script Object Notation
+Playwright default supports for JSON.
+This JSON data we are used into Functional+API.
+Store TestData:
+---------String Numeric 
+{
+"Key":"Value",
+"Key":Value,
+"Key":"Value"
+}
+Example Data:
+{
+"validusername":"standard_user",
+"valispassword:"secret_sauce"
+}
+Json array data:
+{
+"swagtestda":[
+{
+"validusername":"standard_user",
+"valispassword:"secret_sauce"
+},
+{
+"invalidusername":"standard_user",
+"invalispassword:"secret_sauce"
+}
+]
+}
+.json
+
+Her:
+{ } ->Object
+"validusername" ->Key 
+"standard_user" ->Value 
+: ->Separates the Key and Values 
+, ->
+
+a=10  b='10'
+
+a==b:true
+a===b:false 
+Assignment:
+
+//https://www.demoblaze.com/
