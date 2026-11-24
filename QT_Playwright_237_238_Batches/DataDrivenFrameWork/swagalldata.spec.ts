@@ -7,7 +7,8 @@ for(let i=0;i<swagtestdata.swagtestdataall.length;i++)
 test(swagtestdata.swagtestdataall[i].testname,async({page})=>{
 
 await page.goto('https://www.saucedemo.com/'); //Open 
-//await page.pause();
+await page.pause();
+
 await page.waitForTimeout(2000); //Waits 2seconds
 await page.getByRole('textbox',{name:'Username'}).fill(swagtestdata.swagtestdataall[i].username); //Enter
  await page.waitForTimeout(2000); //Waits 2seconds

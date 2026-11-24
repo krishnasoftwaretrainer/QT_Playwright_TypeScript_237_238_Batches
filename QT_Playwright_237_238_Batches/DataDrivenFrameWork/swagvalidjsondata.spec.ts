@@ -1,11 +1,13 @@
 import {test,expect} from '@playwright/test';
+//import swagvalidtestdata from 'D:/QT/VS Code/QT_Playwright_237_238_Batches/DataDrivenFrameWork/swagvalidtestdata.json';
 import swagvalidtestdata from '../DataDrivenFrameWork/swagvalidtestdata.json';
+
 test('Swag Login',async({page})=>{
 
 await page.goto('https://www.saucedemo.com/'); //Open 
 //await page.pause();
 await page.waitForTimeout(2000); //Waits 2seconds
-await page.getByRole('textbox',{name:'Username'}).fill(swagvalidtestdata.validusername); //Enter
+await page.getByRole('textbox',{name:'Username'}).fill('swagvalidtestdata.validusername'); //Enter
  await page.waitForTimeout(2000); //Waits 2seconds
 await page.getByRole('textbox',{name:'Password'}).fill(swagvalidtestdata.validpassword); //Enter
 await page.waitForTimeout(2000); //Waits 2seconds

@@ -558,3 +558,62 @@ a===b:false
 Assignment:
 
 //https://www.demoblaze.com/
+
+Playwright not an tool it is an framework.
+
+Playwright:
+Test Runner Framework
+Hybrid:
+DataDriven:TestData:JSON, Excel, CSV
+POM:Locators+Actions
+Properties:URL
+BDD Cucumber
+
+Selenium:
+TestNG/JUnit
+Hybrid:
+DataDriven:TestData:Excel[ApachePOI]
+POM:Locators+Actions 
+Properties:URL 
+BDD Cucumber
+
+
+
+
+D:\QT\VS Code\QT_Playwright_237_238_Batches
+
+"D:\QT\VS Code\QT_Playwright_237_238_Batches\DataDrivenFrameWork\swagvalidtestdata.json"
+
+let a=10;
+a+b
+
+htno1=101;
+htno2=102;
+htno3=103;
+
+htno[101,102,103]
+
+Assertions:
+PageAssertions:
+PageAssertions.toHaveURL
+
+LocatorAssertions
+LocatorAssertions.toBeVisible
+
+Actions:
+PageActions:
+Page.waitForTimeout
+Page.getByRole
+Page.pause
+Page.goto
+
+LocatorActions
+Locator.click
+Locator.fill
+
+ExcelSheets:
+----------
+Work Book:File:One workbook contains one or more sheets.
+Sheet:One sheet contains number of rows.
+Rows:One row contains number of columns/cells.
+Columns/Cells
