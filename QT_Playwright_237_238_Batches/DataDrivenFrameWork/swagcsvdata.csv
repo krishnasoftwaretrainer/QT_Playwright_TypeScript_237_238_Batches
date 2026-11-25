@@ -1,0 +1,6 @@
+testName,username,password,expected
+Valid login - SauceDemo,standard_user,secret_sauce,success
+Invalid password - SauceDemo,standard_user,wrong_password,Username and password do not match
+Invalid username - SauceDemo,wrong_user,secret_sauce,Username and password do not match
+Blank username - SauceDemo,,secret_sauce,Username is required
+Blank password - SauceDemo,standard_user,,Password is required
