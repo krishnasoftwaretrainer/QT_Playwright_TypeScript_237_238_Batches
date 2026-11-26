@@ -617,3 +617,79 @@ Work Book:File:One workbook contains one or more sheets.
 Sheet:One sheet contains number of rows.
 Rows:One row contains number of columns/cells.
 Columns/Cells
+
+.toContainText(expected);
+.toHaveText(expected);
+
+Epic sadface: Username and password do not match any user in this service
+
+Username and password do not match
+
+Epic sadface: Username is required
+
+Epic sadface: Password is required
+
+PROJECT:
+Domain: E-Commerce
+App Name:Demo Blaze 
+App Type:Web App 
+URL: //https://www.demoblaze.com
+
+Step4:After successful installation of nodejs , open cmd ,verfy version of nodejs by using following command: 
+C:\Users\HP>node --version
+v24.21.0
+Step4:After successful installation of nodejs , open cmd ,verfy version of npm by using following command: 
+C:\Users\HP>npm --version
+11.19.0
+
+JSON: Excel CSV 
+
+URL 
+TestData
+Locators 
+Actions 
+
+Step1:Data Driven FrameWork
+-----
+Divide TestData[Data Driven][JSON: Excel CSV ]
+URL ,Locators , Actions in your Script 
+
+Step2:POM FrameWork
+-----
+Divide Locators , Actions [POM]
+URL ,TestData in your Script 
+
+Step3:Store URL into Environment File 
+-----
+Divide URL [.env]
+Locators , Actions ,TestData in your Script 
+
+
+Hybrid FrameWork:Designing from Scratch.
+-------------
+Step1 + Step2 + Step3 
+
+URL--> .env 
+TestData--> JSON: Excel CSV
+Locators --> POM
+Actions --> POM
+spec.ts -->Runner File npx playwright test 
+
+This is Config setup for RealProject:Local/CI 
+Enable All Browsers[Chromium,Firefox,WebKit,Desktop Chrome,'Desktop Edge, Mobile Chrome, Mobile Safari]
+Enable HeadLess Mode:headless: true,
+Enable Parallel Mode: fullyParallel: true,
+Setup workers:workers: process.env.CI ? 1 : 3, 
+Enable Screenshot: screenshot: 'only-on-failure',
+Enable Video: video: 'on-first-retry'
+Enable Trace: trace: 'on-first-retry',
+Enable Retries: retries: process.env.CI ? 3 : 1,
+Set up:testDir: './DataDrivenFrameWork',
+reporter: 'html',
+
+POM:
+----
+Step2:POM FrameWork
+-----
+Divide Locators , Actions [POM][.ts]
+URL ,TestData in your Script[spec.ts]
